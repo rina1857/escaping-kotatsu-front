@@ -1,6 +1,6 @@
 <template>
   <div class="controle">
-    <h1>This is an controle page</h1>
+    <h1>This is a controle page</h1>
 
     <div class="container-sm">
       <div class="d-grid gap-2 col-6 mx-auto">
