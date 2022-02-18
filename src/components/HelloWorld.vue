@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
     <!-- Bootstrap 確認用ここから -->
-    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-primary" id="go-forward"><i class="bi bi-arrow-up"></i>go forward</button>
+    <button type="button" class="btn btn-primary" id="go-backward"><i class="bi bi-arrow-down"></i>go backward</button>
     <i class="bi bi-file-bar-graph"></i>
     <!-- Bootstrap 確認用ここまで -->
     <h1>{{ msg }}</h1>
