@@ -1,8 +1,24 @@
 <template>
   <div class="hello">
     <!-- Bootstrap 確認用ここから -->
-    <button type="button" class="btn btn-primary" id="go-forward"><i class="bi bi-arrow-up"></i>go forward</button>
-    <button type="button" class="btn btn-primary" id="go-backward"><i class="bi bi-arrow-down"></i>go backward</button>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="d-grid gap-2">
+            <button type="button" class="btn btn-outline-secondary btn-lg" id="go-forward">
+              <i class="bi bi-chevron-up"></i> 前進
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg" id="go-backward">
+              <i class="bi bi-chevron-down"></i> 後進
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          test
+        </div>
+      </div>
+    </div>
+
     <i class="bi bi-file-bar-graph"></i>
     <!-- Bootstrap 確認用ここまで -->
     <h1>{{ msg }}</h1>
