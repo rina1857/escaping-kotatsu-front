@@ -29,4 +29,5 @@
     }
   }
 }
+@import "https://cdn.jsdelivr.net/npm/fontawesome@5.6.3/index.min.js";
 </style>
