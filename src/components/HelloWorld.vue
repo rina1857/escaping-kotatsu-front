@@ -1,5 +1,9 @@
 <template>
   <div class="hello">
+    <!-- Bootstrap 確認用ここから -->
+    <button type="button" class="btn btn-primary">Primary</button>
+    <i class="bi bi-file-bar-graph"></i>
+    <!-- Bootstrap 確認用ここまで -->
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
