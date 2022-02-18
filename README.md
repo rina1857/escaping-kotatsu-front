@@ -2,12 +2,12 @@
 
 ## Project setup
 ```
-yarn install
+docker-compose build
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+docker-compose up
 ```
 
 ### Compiles and minifies for production
