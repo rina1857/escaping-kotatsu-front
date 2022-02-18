@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
     <!-- Bootstrap 確認用ここから -->
-    <button type="button" class="btn btn-primary" id="go-forward"><font-awesome-icon icon="fa-solid fa-arrow-up" />go forward</button>
+    <button type="button" class="btn btn-primary" id="go-forward">
+      <font-awesome-icon icon="fa-solid fa-arrow-up" />go forward
+    </button>
     <button type="button" class="btn btn-primary" id="go-backward">go backward</button>
     <i class="bi bi-file-bar-graph"></i>
     <!-- Bootstrap 確認用ここまで -->
