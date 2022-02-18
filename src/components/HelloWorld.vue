@@ -1,20 +1,6 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <!-- Bootstrap 確認用ここから -->
-    <div class="container-sm">
-      <div class="d-grid gap-2 col-6 mx-auto">
-        <input id="set-time" class="form-control-lg" style="text-align: center" type="time" />
-
-        <button type="button" class="btn btn-primary btn-lg" id="go-forward">
-          <i class="bi bi-chevron-up"></i> 前進
-        </button>
-        <button type="button" class="btn btn-primary btn-lg" id="go-backward">
-          <i class="bi bi-chevron-down"></i> 後進
-        </button>
-      </div>
-    </div>
-    <!-- Bootstrap 確認用ここまで -->
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
