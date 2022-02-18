@@ -1,27 +1,20 @@
 <template>
   <div class="hello">
+    <h1>{{ msg }}</h1>
     <!-- Bootstrap 確認用ここから -->
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col">
-          <div class="d-grid gap-2">
-            <button type="button" class="btn btn-outline-secondary btn-lg" id="go-forward">
-              <i class="bi bi-chevron-up"></i> 前進
-            </button>
-            <button type="button" class="btn btn-outline-secondary btn-lg" id="go-backward">
-              <i class="bi bi-chevron-down"></i> 後進
-            </button>
-          </div>
-        </div>
-        <div class="col">
-          test
-        </div>
+    <div class="container-sm">
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <input id="set-time" class="form-control-lg" style="text-align: center" type="time" />
+
+        <button type="button" class="btn btn-primary btn-lg" id="go-forward">
+          <i class="bi bi-chevron-up"></i> 前進
+        </button>
+        <button type="button" class="btn btn-primary btn-lg" id="go-backward">
+          <i class="bi bi-chevron-down"></i> 後進
+        </button>
       </div>
     </div>
-
-    <i class="bi bi-file-bar-graph"></i>
     <!-- Bootstrap 確認用ここまで -->
-    <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
       check out the
