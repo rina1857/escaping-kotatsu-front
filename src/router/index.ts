@@ -10,19 +10,6 @@ const routes: Array<RouteConfig> = [
     name: 'Controle',
     component: Controle,
   },
-  {
-    path: '/controle-eject',
-    name: 'ControleEject',
-    // route level code-splitting
-    // this generates a separate chunk (controle.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "controle" */ '../views/ControleEject.vue'),
-  },
-  {
-    path: '/controle-backward-forward',
-    name: 'ControleBackwardForward',
-    component: () => import(/* webpackChunkName: "controle" */ '../views/ControleBackwardForward.vue'),
-  },
 ];
 
 const router = new VueRouter({

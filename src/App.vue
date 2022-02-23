@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Controle</router-link> | <router-link to="/controle-eject">ControleEject</router-link> |
-      <router-link to="/controle-backward-forward">ControleBackwardForward</router-link>
-    </div>
     <router-view />
   </div>
 </template>
