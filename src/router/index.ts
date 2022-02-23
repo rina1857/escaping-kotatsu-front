@@ -7,21 +7,21 @@ Vue.use(VueRouter);
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
-  },
-  {
-    path: '/Controle',
     name: 'Controle',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Controle.vue'),
+    component: () => import(/* webpackChunkName: "controle" */ '../views/Controle.vue'),
+  },
+  {
+    path: '/controle-eject',
+    name: 'ControleEject',
+    // route level code-splitting
+    // this generates a separate chunk (controle.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "controle" */ '../views/ControleEject.vue'),
+  },
+  {
+    path: '/controle-backward-forward',
+    name: 'ControleBackwardForward',
+    component: () => import(/* webpackChunkName: "controle" */ '../views/ControleBackwardForward.vue'),
   },
 ];
 
