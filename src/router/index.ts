@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
-import Home from '../views/Home.vue';
+import Controle from '../views/Controle.vue';
 
 Vue.use(VueRouter);
 
@@ -8,7 +8,7 @@ const routes: Array<RouteConfig> = [
   {
     path: '/',
     name: 'Controle',
-    component: () => import(/* webpackChunkName: "controle" */ '../views/Controle.vue'),
+    component: Controle,
   },
   {
     path: '/controle-eject',
